@@ -1,10 +1,7 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 import Link from "next/link";
 
-const Home: NextPage = () => {
+export default function ProductsList() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -30,6 +27,4 @@ const Home: NextPage = () => {
       </main>
     </div>
   );
-};
-
-export default Home;
+}
